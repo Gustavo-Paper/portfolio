@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Almeida - Desenvolvedor Front End</title>
+
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo"> GA</h1>
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">Meus Projetos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Eu sou Gustavo Almeida</h1>
+            <p>Um Desenvolvedor Front-End em formação.</p>
+            <p>Minha jornada na programação começou como uma curiosidade e rapidamente se transformou em um propósito.
+            <p>A Cada linha de código que escrevo é uma oportunidade de sempre está aprendendo e evoluindo,para interfaces dinâmicas e
+                envolventes.</p>
+            <p>Ah, também sou fã de jogos, filmes e series </p>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/gustavo-almeida-57b2a3280/ " title="Ir para o LinkedIn"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <img class="redes" src="/src/img/linkedin.png" alt="logo para acessar meu linkedin">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Gustavo-Paper" title="Ir para o Github" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <img class="redes" src="/src/img/github.png" alt="logo para acessar meu github">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Enviar mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <img class="redes" src="/src/img/whatsapp.png" alt="logo para acessar meu whatssapp">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="../src/img/foto-perfil.jpeg" alt="foto do portfolio do Gustavo">
+            </div>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo"> Meus Projetos</h2>
+
+        <div class="container-projetos">
+            <div class="projeto ativo">
+                <a href="https://vikings-seven.vercel.app/" target="_blank">
+                    <img class="imagem-projeto" src="../src/img/vikings.png" alt="">
+                    <h3>Projeto Vikings</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto com React, UseState e Lógica.</p>
+                        <p> Ver no Github Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://desafio-fantastika.vercel.app/" target="_blank">
+                    <img class="imagem-projeto" src="../src/img/fantastika.png" alt="">
+                    <h3>Projeto Fantastika</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto realizado com Html, Css3, Position e design Responsivo para mobile.</p>
+                        <p> Ver no Github Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="https://aladdin-murex.vercel.app/" target="_blank">
+                    <img class="imagem-projeto" src="../src/img/aladdin.png" alt="">
+                    <h3>Projeto Lâmpada do Aladdin</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto com React, UseState e Lógica.</p>
+                        <p> Ver no Github Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <button class="btn-mostrar-projetos remover"> Mostrar mais Projetos </button>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
